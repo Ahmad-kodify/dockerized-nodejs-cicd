@@ -16,7 +16,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo 'Cloning repository from GitHub...'
-                git branch: 'main', url: 'https://github.com/your-username/dockerized-nodejs-CiCd.git'
+                git branch: 'main', url: 'https://github.com/Ahmad-kodify/dockerized-nodejs-cicd'
             }
         }
 
